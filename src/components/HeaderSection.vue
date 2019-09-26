@@ -18,10 +18,7 @@
                     <div class="box columns">
                         <div class="column">
                             <figure class="image is-96x96">
-                                <img
-                                    class="is-rounded"
-                                    src="https://bulma.io/images/placeholders/96x96.png"
-                                >
+                                <img class="is-rounded" src="@/assets/photo.png">
                             </figure>
                         </div>
                         <div class="column is-four-fifths">
@@ -32,9 +29,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- <div class="tile">
-                        <article class="tile is-child box"></article>
-                    </div>-->
                 </div>
                 <div class="column"></div>
             </div>
