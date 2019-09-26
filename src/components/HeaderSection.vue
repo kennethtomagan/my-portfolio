@@ -10,14 +10,31 @@
             :particlesNumber="160"
         ></vue-particles>
         <!-- <section class="header-bg"></section> -->
-        <section class="container p-t-120">
+        <section class="container p-t-80">
             <div class="columns">
                 <div class="column"></div>
 
                 <div class="column is-two-fifths">
-                    <div class="tile">
-                        <article class="tile is-child box"></article>
+                    <div class="box columns">
+                        <div class="column">
+                            <figure class="image is-96x96">
+                                <img
+                                    class="is-rounded"
+                                    src="https://bulma.io/images/placeholders/96x96.png"
+                                >
+                            </figure>
+                        </div>
+                        <div class="column is-four-fifths">
+                            <label class="title is-5">Kenneth E. Tomagan</label>
+                            <p>Web Developer</p>
+                            <p>
+                                <b-icon pack="fa" icon="map-marker" size="is-small"></b-icon>Rizal, Philippines
+                            </p>
+                        </div>
                     </div>
+                    <!-- <div class="tile">
+                        <article class="tile is-child box"></article>
+                    </div>-->
                 </div>
                 <div class="column"></div>
             </div>
