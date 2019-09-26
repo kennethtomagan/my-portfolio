@@ -1,3 +1,5 @@
 <template>
-    <div>Experience</div>
+    <section class="section container experience">
+        <div>Experience</div>
+    </section>
 </template>
