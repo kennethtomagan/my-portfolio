@@ -63,28 +63,44 @@
                 </router-link>
             </div>
             <div class="column">
-                <div class="card notification is-warning">
-                    <div class="card-content has-text-centered">
-                        <b-icon pack="fa" icon="tasks" size="is-large" custom-class="opacity50"></b-icon>
+                <router-link :to="{ name: 'experience' }">
+                    <div class="card notification is-warning">
+                        <div class="card-content has-text-centered">
+                            <b-icon pack="fa" icon="tasks" size="is-large" custom-class="opacity50"></b-icon>
+                        </div>
+                        <div class="card-footer no-border-top">Experience</div>
                     </div>
-                    <div class="card-footer no-border-top">Experience</div>
-                </div>
+                </router-link>
             </div>
             <div class="column">
-                <div class="card notification is-link">
-                    <div class="card-content has-text-centered">
-                        <b-icon pack="fa" icon="laptop" size="is-large" custom-class="opacity50"></b-icon>
+                <router-link :to="{ name: 'projects' }">
+                    <div class="card notification is-link">
+                        <div class="card-content has-text-centered">
+                            <b-icon
+                                pack="fa"
+                                icon="laptop"
+                                size="is-large"
+                                custom-class="opacity50"
+                            ></b-icon>
+                        </div>
+                        <div class="card-footer no-border-top">Projects</div>
                     </div>
-                    <div class="card-footer no-border-top">Projects</div>
-                </div>
+                </router-link>
             </div>
             <div class="column">
-                <div class="card notification is-dark">
-                    <div class="card-content has-text-centered">
-                        <b-icon pack="fa" icon="briefcase" size="is-large" custom-class="opacity50"></b-icon>
+                <router-link :to="{ name: 'hire' }">
+                    <div class="card notification is-dark">
+                        <div class="card-content has-text-centered">
+                            <b-icon
+                                pack="fa"
+                                icon="briefcase"
+                                size="is-large"
+                                custom-class="opacity50"
+                            ></b-icon>
+                        </div>
+                        <div class="card-footer no-border-top">Hire Me</div>
                     </div>
-                    <div class="card-footer no-border-top">Hire Me</div>
-                </div>
+                </router-link>
             </div>
         </div>
     </section>

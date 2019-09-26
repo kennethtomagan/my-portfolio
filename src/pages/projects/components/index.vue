@@ -1,3 +1,5 @@
 <template>
-    <div>Projects</div>
+    <section class="section container Projects">
+        <div>Projects</div>
+    </section>
 </template>
