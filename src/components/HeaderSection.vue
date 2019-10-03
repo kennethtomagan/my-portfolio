@@ -29,6 +29,12 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="box columns p-t-10 p-b-10 m-t-sm" v-if="$route.path != '/'">
+                        <router-link :to="{ name: 'home' }">
+                            <b-icon pack="fa" icon="home" size="is-small"></b-icon>Home
+                        </router-link>
+                    </div>
                 </div>
                 <div class="column"></div>
             </div>
