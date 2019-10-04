@@ -8,8 +8,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-
 // import TheNavbar from "@/components/Navbar";
 import HeaderSection from "@/components/HeaderSection";
 import { setTimeout } from "timers";

@@ -9,7 +9,9 @@
                         <span class="tag is-medium is-primary">2016</span>
                     </header>
                     <div class="timeline-item">
-                        <div class="timeline-marker"></div>
+                        <div class="timeline-marker is-icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
                         <div class="timeline-content">
                             <p class="heading">June 2016</p>
                             <p class="title is-5 m-b-sm">Web Developer Trainee</p>
@@ -25,8 +27,8 @@
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <div class="timeline-marker is-image is-32x32">
-                            <img src="http://bulma.io/images/placeholders/32x32.png">
+                        <div class="timeline-marker is-icon">
+                            <i class="fa fa-briefcase"></i>
                         </div>
                         <div class="timeline-content">
                             <p class="heading">June 2016</p>
@@ -50,7 +52,7 @@
                     </header>
                     <div class="timeline-item">
                         <div class="timeline-marker is-icon">
-                            <i class="fa fa-flag"></i>
+                            <i class="fa fa-briefcase"></i>
                         </div>
                         <div class="timeline-content">
                             <p class="heading">March 2017</p>
