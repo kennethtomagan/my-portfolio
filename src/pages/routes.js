@@ -3,5 +3,6 @@ import skills from './skills/routes'
 import projects from './projects/routes'
 import hireMe from './hireMe/routes'
 import experience from './experience/routes'
+import notfound from './notFound/routes'
 
-export default [...home, ...skills, ...projects, ...hireMe, ...experience]
+export default [...notfound, ...home, ...skills, ...projects, ...hireMe, ...experience]
