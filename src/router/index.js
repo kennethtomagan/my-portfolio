@@ -4,7 +4,7 @@ import { routes as routes } from '../pages/index'
 
 Vue.use(Router)
 const router = new Router({
-    mode: 'history',
+    // mode: 'history',
     routes: routes
 })
 
