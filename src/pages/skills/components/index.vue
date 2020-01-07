@@ -35,7 +35,37 @@
                 <p class="title is-5">Vue</p>
             </div>
             <div class="column is-half">
-                <b-progress :value="85" show-value format="percent" type="is-primary"></b-progress>
+                <b-progress :value="90" show-value format="percent" type="is-primary"></b-progress>
+            </div>
+            <div class="column"></div>
+        </div>
+
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <p class="title is-5">React</p>
+            </div>
+            <div class="column is-half">
+                <b-progress :value="65" show-value format="percent" type="is-primary"></b-progress>
+            </div>
+            <div class="column"></div>
+        </div>
+
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <p class="title is-5">Express</p>
+            </div>
+            <div class="column is-half">
+                <b-progress :value="65" show-value format="percent" type="is-primary"></b-progress>
+            </div>
+            <div class="column"></div>
+        </div>
+
+        <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+                <p class="title is-5">Node</p>
+            </div>
+            <div class="column is-half">
+                <b-progress :value="70" show-value format="percent" type="is-primary"></b-progress>
             </div>
             <div class="column"></div>
         </div>
